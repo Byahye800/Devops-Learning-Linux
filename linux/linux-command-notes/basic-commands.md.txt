@@ -1,5 +1,7 @@
 Navigation Commands
 
+Linux navigation commands help you move around the filesystem, understand where you are, and access the directories you need. These commands form the foundation of working in the terminal and are used constantly in DevOps, scripting, troubleshooting, and system administration.
+
 1: pwd = Shows the full path of the directory you are currently in.
 Example Output: $ pwd /home/ubunto/projects 
 DevOps Usage:
