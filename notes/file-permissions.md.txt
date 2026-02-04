@@ -11,5 +11,19 @@ more effectively.
 6: stat = Displays detailed file information, including permission bits.
 7: chmod -R = Applies permission changes to a directory and all items inside it.
 
+Permission Basics 
+- r = read
+- w = write
+- x = execute
+- u = user
+- g = group
+- o = others
+- Numeric (Octal) permissions:
+- 7 = rwx
+- 6 = rw-
+- 5 = r-x
+- 4 = r--
+
+
 
 
