@@ -1,0 +1,15 @@
+File Permissions
+
+Linux uses a clear permission model to control who can read, write, or execute files and directories. Understanding these basics gives you better control over your system and helps you use commands like chmod, chown, and 
+more effectively.
+
+1: ls -l = Shows permissions, ownership, and timestamps in long listing format.
+2: chmod = Changes permission settings using numeric or symbolic notation.
+3: chmod u+x = Adds execute permission for the file owner.
+4: chown : = Changes the user and group that own a file.
+5: chgrp = Updates the group ownership of a file.
+6: stat = Displays detailed file information, including permission bits.
+7: chmod -R = Applies permission changes to a directory and all items inside it.
+
+
+

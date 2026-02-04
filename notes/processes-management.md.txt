@@ -1,0 +1,13 @@
+
+Process Management
+
+Linux provides simple tools to view running processes, check system activity, and manage tasks. These commands help you understand what your system is doing and give you basic control over starting, stopping, and monitoring processes.
+
+6.1 ps aux = Shows all running processes with details like CPU and memory usage.
+6.2 top = Displays real‑time system activity, including active processes and resource usage.
+6.3 htop = Interactive version of top with easier navigation and colour‑coded output (if installed).
+6.4 kill <PID> = Sends a signal to stop a process using its process ID.
+6.5 kill -9 <PID> = Force‑kills a process immediately using the SIGKILL signal.
+6.6 pkill <name> = Stops processes by matching their name instead of using a PID.
+6.7 systemctl status <service> = Shows the current status of a system service.
+6.8 systemctl restart <service> = Restarts a system service to apply changes or recover from issues.

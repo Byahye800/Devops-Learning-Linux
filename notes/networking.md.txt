@@ -1,0 +1,13 @@
+Networking Commands
+
+Linux provides several simple tools to check connectivity, view network details, and troubleshoot basic network issues. Learning these commands helps you understand how your system communicates on the network and makes it easier to diagnose connection problems.
+
+
+1: ip a = Shows network interfaces, assigned IP addresses, and link status.
+2: ifconfig = Displays interface information on older systems (legacy alternative to ip).
+3: ping = Tests network connectivity and measures response time.
+4: curl = Retrieves data from a web address; useful for testing APIs or endpoints.
+5: wget = Downloads files from the internet using HTTP, HTTPS, or FTP.
+6: nslookup = Looks up DNS information to help diagnose name resolution issues.
+7: ss -tulnp = Shows active network connections, listening ports, and associated processes.
+8: traceroute = Displays the path packets take to reach a destination.
