@@ -164,3 +164,57 @@ Used to merge datasets, correlate logs from different sources, or combine config
 
 
 
+
+
+Challenge: Parse /etc/passwd for users with /bin/bash
+
+
+
+Command Used
+
+grep "/bin/bash" /etc/passwd | awk -F: '{print $1}'
+
+
+
+
+
+This command finds all users on the system whose default shell is /bin/bash, then extracts only their username.
+
+\- grep "/bin/bash" /etc/passwd"
+
+Searches the /etc/passwd file for entries that end with /bin/bash (meaning the user uses Bash as their login shell).
+
+\- |
+
+Pipes the matching lines into the next command.
+
+\- awk -F: '{print $1}'
+
+Uses : as the field separator and prints the first field, which is the username.
+
+
+
+Example Output
+
+root
+
+ubuntu
+
+developer
+
+
+
+
+
+Output Behaviour
+
+\- This command always prints matching usernames.
+
+\- It never runs silently, because both grep and awk produce visible output unless nothing matches.
+
+
+
+A simple but powerful example of combining text‑processing tools to extract exactly the information you need from system files
+
+
+
