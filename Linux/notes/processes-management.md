@@ -87,3 +87,42 @@ DevOps Usage:
 Used to restart services after configuration changes, deployments, or when recovering from errors.
 
 
+
+Exercise: Start → Find → Kill a Process // Challenge
+
+Step 1 — Start a long‑running process
+$ sleep 200 &
+[1] 3001
+
+
+Explanation:
+Starts a 200‑second sleep process in the background.
+Job number = 1
+PID = 3001
+
+Step 2 — Find its PID
+$ ps aux | grep sleep
+user   3001  0.0  0.0   5000   600 pts/0  S  10:20   0:00 sleep 200
+
+Explanation:
+Searches for the running sleep process and shows its PID.
+
+Step 3 — Kill the process
+$ kill 3001
+(No output on success — this is normal and expected)
+
+Explanation:
+Sends a SIGTERM signal to stop the process.
+
+Step 4 — Verify it stopped
+$ ps aux | grep sleep
+
+
+Example Output:
+(no matching processes)
+
+
+Explanation:
+And that’s the full workflow for starting a process, finding it, and safely terminating it. These are core skills for managing Linux systems, and mastering them gives you real control over what’s running on your machine.
+
+
