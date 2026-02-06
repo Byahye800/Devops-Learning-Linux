@@ -1,14 +1,14 @@
-Text processing 
+Text Processing
 
 
 
-Linux provides powerful tools for searching, filtering, transforming, and analysing text. These commands are essential when working with logs, configuration files, automation scripts, and large datasets. Mastering text processing makes it easier to extract information, troubleshoot issues, and build efficient DevOps workflows
+Linux provides powerful tools for searching, filtering, transforming, and analysing text. These commands are essential when working with logs, configuration files, automation scripts, and large datasets. Mastering text processing makes it easier to extract information, troubleshoot issues, and build efficient DevOps workflows.
 
 
 
+1: grep
 
-
-1: grep = Searches for lines matching a pattern inside a file.
+Searches for lines matching a pattern inside a file.
 
 
 
@@ -28,7 +28,9 @@ Used to filter logs, find errors quickly, extract specific values, and debug fai
 
 
 
-2: awk = Extracts and processes specific fields or columns from text.
+2: awk
+
+Extracts and processes specific fields or columns from text.
 
 
 
@@ -48,7 +50,9 @@ Used to parse logs, extract metrics, analyse API responses, and format data for 
 
 
 
-3: sed = Performs find/replace operations or edits text in files.
+3: sed
+
+Performs find/replace operations or edits text in files.
 
 
 
@@ -66,7 +70,9 @@ Used to update config files automatically, replace environment variables in temp
 
 
 
-4: sort = Sorts lines alphabetically or numerically.
+4: sort
+
+Sorts lines alphabetically or numerically.
 
 
 
@@ -90,7 +96,9 @@ Used to organise log output, sort IP lists, prepare data for reporting, or clean
 
 
 
-5: uniq = Removes duplicate lines (usually after sorting).
+5: uniq
+
+Removes duplicate lines (usually after sorting).
 
 
 
@@ -112,7 +120,9 @@ Used to identify unique errors, count repeated log entries, or clean datasets be
 
 
 
-6: tr = Translates, replaces, or deletes characters.
+6: tr
+
+Translates, replaces, or deletes characters.
 
 
 
@@ -130,7 +140,9 @@ Used to clean text, convert case, remove unwanted characters, or format data for
 
 
 
-7: join = Combines lines from two files based on a matching field.
+7: join
+
+Combines lines from two files based on a matching field.
 
 
 
@@ -149,10 +161,6 @@ john tester
 DevOps Usage:
 
 Used to merge datasets, correlate logs from different sources, or combine configuration values during automation.
-
-
-
-
 
 
 
