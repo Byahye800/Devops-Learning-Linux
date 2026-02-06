@@ -210,5 +210,73 @@ Numeric (Octal) Permissions
 
 \- 4 = r--
 
+Task 3: Permissions & Ownership // Challenge
+
+Explanation 
+
+In this task, I demonstrated how to create a shell script, execute it, modify its ownership, and adjust file permissions using standard Linux commands. Below is a detailed explanation of each step and what it accomplished.
+
+1. Creating a Shell Script (hello.sh)
+I began by creating a new script file using output redirection:
+echo "#!/bin/bash echo 'Hello Devops'" > hello.sh 
+This command writes two lines into hello.sh:
+•	#!/bin/bash specifies that the script should run using the Bash shell.
+•	echo 'Hello Devops' prints a message when the script is executed.
+Using > ensures the file is created (or overwritten if it already exists).
+I verified the file was created with:
+ls -l hello.sh 
+This showed the file existed with default permissions (rw-r--r--) and was owned by my user account.
+
+2. Making the Script Executable
+By default, the script did not have execute permissions. I added them using:
+chmod +x hello.sh 
+This allowed me to run the script directly from the terminal.
+
+3. Running the Script
+I executed the script using:
+./hello.sh 
+The output confirmed the script worked correctly:
+Hello Devops 
+
+4. Changing File Ownership to Root
+Next, I practiced modifying file ownership using chown. Only the root user can change ownership, so I used sudo:
+sudo chown root:root hello.sh 
+After this, the file was owned by the root user and root group. I confirmed this with:
+ls -l hello.sh 
+The permissions stayed the same, but the owner changed to root.
+
+5. Restoring Ownership Back to Myself
+To regain control of the file, I changed the ownership back:
+sudo chown byahy:byahy hello.sh 
+This returned the file to my user account, which I verified again with ls -l.
+
+6. Creating an Empty File (myfile.txt)
+I created a new empty file using:
+touch myfile.txt 
+This produced a zero byte file with default permissions (rw-r--r--).
+
+7. Modifying Permissions on myfile.txt
+Finally, I practiced adjusting permissions using symbolic notation:
+chmod g-r myfile.txt 
+This removed the read permission from the group. The updated permissions became:
+rw----r-- 
+
+Meaning:
+•	User: read + write
+•	Group: no permissions
+•	Others: read
+This could have also been achieved by applying the Octal method with the command (chmod 604 myfile.txt)
+This demonstrated how to selectively remove access for specific permission classes.
+Conclusion
+Through this sequence of commands, I successfully demonstrated:
+•	Creating and editing files
+•	Making scripts executable
+•	Running shell scripts
+•	Changing file ownership using chown
+•	Adjusting permissions using chmod
+•	Understanding how Linux represents file permissions and ownership
+Each step shows practical knowledge of Linux file management essential skills for system administration and DevOps workflows.
+
+
 
 
