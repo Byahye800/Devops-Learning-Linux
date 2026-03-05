@@ -2,7 +2,7 @@ Bash Scripting Challenges
 
 
 
-This folder is a small but meaningful snapshot of my Bash scripting journey — the point where the command line stopped feeling intimidating and started feeling like a tool I could actually control.
+This folder is a small but meaningful snapshot of my Bash scripting journey the point where the command line stopped feeling intimidating and started feeling like a tool I could actually control.
 
 Each script represents a practical skill I picked up along the way: taking user input, working with files and directories, checking permissions, and automating simple tasks that would normally take several manual steps.
 
