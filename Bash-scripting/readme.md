@@ -116,7 +116,7 @@ At first, I underestimated how unpredictable user input can be.
 
 Someone might enter letters instead of numbers or accidentally try to divide by zero.
 
-Figuring out how to validate input properly taught me to think ahead and write scripts that protect themselves — a mindset that’s essential in DevOps.
+Figuring out how to validate input properly taught me to think ahead and write scripts that protect themselves a mindset that’s essential in DevOps.
 
 
 
