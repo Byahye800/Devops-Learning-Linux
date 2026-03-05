@@ -96,11 +96,11 @@ Key Learnings
 
 \- Mastery of user input handling\*\* using `read`, validation, and conditional logic.  
 
-\- Understanding filesystem operations\*\* such as creating directories, writing files, and navigating paths.  
+\- Understanding filesystem operations such as creating directories, writing files, and navigating paths.  
 
 \- Working with permissions\*\* and learning how Linux enforces read/write/execute rules.  
 
-\- Automation mindset\*\* — using Bash to eliminate repetitive manual tasks.  
+\- Automation mindset, using Bash to eliminate repetitive manual tasks.  
 
 \- Safe scripting practices\*\*, including error handling and checking for edge cases (e.g., division by zero, missing files).
 
