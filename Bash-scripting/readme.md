@@ -160,13 +160,13 @@ Why Bash Matters in DevOps
 
 Bash is one of those skills that quietly transforms the way you work.
 
-Once you start using it, you realise how much smoother everything becomes — from simple tasks to full automation.
+Once you start using it, you realise how much smoother everything becomes from simple tasks to full automation.
 
 For anyone stepping into DevOps, Bash isn’t just another tool; it’s the language of the systems you’re trying to understand and control.
 
 This folder represents the early steps of learning that language.
 
-Every script here — whether it’s checking permissions, creating backups, or handling user input — reflects the kind of real tasks you’ll automate on Linux servers, cloud environments, and CI/CD pipelines.
+Every script here whether it’s checking permissions, creating backups, or how handling user input reflects the kind of real tasks you’ll automate on Linux servers, cloud environments, and CI/CD pipelines.
 
 Bash matters in DevOps because it helps you:
 
@@ -178,7 +178,7 @@ Bash matters in DevOps because it helps you:
 
 \- Work confidently across AWS, Docker, Kubernetes, and Linux, all of which rely heavily on shell scripting behind the scenes.
 
-Learning Bash early gives you a huge advantage — it builds confidence, sharpens your thinking, and makes every other DevOps tool feel more approachable.
+Learning Bash early gives you a huge advantage, it builds confidence, sharpens your thinking, and makes every other DevOps tool feel more approachable.
 
 It’s a small skill with a big impact, and this folder is where that journey begins.
 
