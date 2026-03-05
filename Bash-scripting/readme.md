@@ -150,7 +150,7 @@ What if there are no  files?
 
 What if the backup folder already exists?
 
-Handling all of that made the script more reliable — and gave me a better appreciation for automation that’s safe, predictable, and calm under pressure.
+Handling all of that made the script more reliable and gave me a better appreciation for automation that’s safe, predictable, and calm under pressure.
 
 
 
