@@ -22,7 +22,7 @@ Features
 
 &nbsp; - Execute permission  
 
-\- Clean ✓ / ✗ output for readability  
+\- Clean output for readability  
 
 \- Wrapped inside a function for better structure and reusability  
 
@@ -58,9 +58,9 @@ Enter filename to check: /etc/passwd
 
 File '/etc/passwd' exists.
 
-✓ File is readable
+File is readable
 
-✗ File is not writable
+File is not writable
 
-✗ File is not executable
+File is not executable
 
