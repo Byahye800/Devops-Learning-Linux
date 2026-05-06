@@ -33,8 +33,3 @@ strings data.txt | grep "="
 Explanation
 
 After logging into Bandit Level 9, I found a file named data.txt. The file contained mostly binary data, so I used the strings command to extract only human‑readable text. Then I filtered the output using grep "=" to locate the line that contains several '=' characters. That line contained the password for the next level.
-
-
-
-
-

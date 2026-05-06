@@ -35,4 +35,3 @@ cat ./maybehere07/.file2
 Explanation
 
 After logging into Bandit Level 5, I listed the files in the home directory and saw a directory named "inhere". Inside it were many files with random names. I used the find command with multiple conditions to locate the correct file: it had to be a regular file, exactly 1033 bytes in size and owned by bandit6. The command find . -type f -size 1033c returned the correct filename. I then used cat on that file to retrieve the password for the next level.
-

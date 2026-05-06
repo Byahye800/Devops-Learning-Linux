@@ -57,4 +57,3 @@ cat <final file>
 Explanation
 
 After logging into Bandit Level 12, I found that data.txt contained a hexdump. I reversed it using xxd -r and saved the output as data. Using the file command showed that the file changed formats after each extraction. I renamed the file to match its format and decompressed it step by step using gzip, bzip2, and tar. After several rounds of extraction, the final file revealed the password for the next level.
-

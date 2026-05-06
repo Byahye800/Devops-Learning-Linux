@@ -1,4 +1,4 @@
-Bash Scripting Challenges 
+Bash Scripting Challenges
 
 
 
@@ -22,13 +22,13 @@ Script Summaries
 
 A simple interactive calculator that:
 
-\- Prompts the user for two numbers  
+\- Prompts the user for two numbers
 
-\- Performs addition, subtraction, multiplication, and division  
+\- Performs addition, subtraction, multiplication, and division
 
-\- Handles division‑by‑zero safely  
+\- Handles division‑by‑zero safely
 
-\- Displays all results in a clean, readable format  
+\- Displays all results in a clean, readable format
 
 
 
@@ -40,15 +40,15 @@ A simple interactive calculator that:
 
 Automates basic filesystem tasks:
 
-\- Creates a directory named `bash\_demo`  
+\- Creates a directory named `bash\_demo`
 
-\- Navigates into it  
+\- Navigates into it
 
-\- Creates a file `demo.txt`  
+\- Creates a file `demo.txt`
 
-\- Writes text including the current date  
+\- Writes text including the current date
 
-\- Displays the file contents  
+\- Displays the file contents
 
 
 
@@ -60,11 +60,11 @@ Automates basic filesystem tasks:
 
 A script that:
 
-\- Prompts the user for a filename  
+\- Prompts the user for a filename
 
-\- Checks if the file exists  
+\- Checks if the file exists
 
-\- Verifies read, write, and execute permissions   
+\- Verifies read, write, and execute permissions
 
 
 
@@ -76,13 +76,13 @@ A script that:
 
 A lightweight backup utility that:
 
-\- Prompts for a source directory  
+\- Prompts for a source directory
 
-\- Creates a timestamped backup folder  
+\- Creates a timestamped backup folder
 
-\- Copies all `.txt` files into it  
+\- Copies all `.txt` files into it
 
-\- Displays the number of files backed up  
+\- Displays the number of files backed up
 
 
 
@@ -94,13 +94,13 @@ Key Learnings
 
 
 
-\- Mastery of user input handling\*\* using `read`, validation, and conditional logic.  
+\- Mastery of user input handling\*\* using `read`, validation, and conditional logic.
 
-\- Understanding filesystem operations such as creating directories, writing files, and navigating paths.  
+\- Understanding filesystem operations such as creating directories, writing files, and navigating paths.
 
-\- Working with permissions\*\* and learning how Linux enforces read/write/execute rules.  
+\- Working with permissions\*\* and learning how Linux enforces read/write/execute rules.
 
-\- Automation mindset, using Bash to eliminate repetitive manual tasks.  
+\- Automation mindset, using Bash to eliminate repetitive manual tasks.
 
 \- Safe scripting practices\*\*, including error handling and checking for edge cases (e.g., division by zero, missing files).
 
@@ -181,8 +181,3 @@ Bash matters in DevOps because it helps you:
 Learning Bash early gives you a huge advantage, it builds confidence, sharpens your thinking, and makes every other DevOps tool feel more approachable.
 
 It’s a small skill with a big impact, and this folder is where that journey begins.
-
-
-
-
-

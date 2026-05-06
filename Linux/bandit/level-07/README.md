@@ -35,8 +35,3 @@ cat data.txt
 Explanation
 
 After logging into Bandit Level 7, I listed the files in the home directory and found a file named "data.txt". The goal was to search inside this file for the line containing the word "millionth". I used grep "millionth" data.txt to locate the exact line. The line contained the password for the next level. I then used cat data.txt to view the file if needed.
-
-
-
-
-

@@ -39,8 +39,3 @@ Directory 'bash\_demo' created.
 File 'demo.txt' created.
 
 File contents: This file was created by a Bash script on 2026-03-04
-
-
-
-
-

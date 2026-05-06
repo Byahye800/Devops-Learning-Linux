@@ -33,8 +33,3 @@ cat data.txt | tr 'A-Za-z' 'N-ZA-Mn-za-m'
 Explanation
 
 After logging into Bandit Level 11, I found a file named data.txt. The contents were encoded using ROT13. I decoded the file using cat data.txt | tr 'A-Za-z' 'N-ZA-Mn-za-m'. The decoded output contained the password for the next level.
-
-
-
-
-

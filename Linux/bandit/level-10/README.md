@@ -33,8 +33,3 @@ cat data.txt | base64 -d
 Explanation
 
 After logging into Bandit Level 10, I found a file named data.txt. The contents were base64-encoded. I used cat data.txt | base64 -d to decode the text. The decoded output contained the password for the next level.
-
-
-
-
-

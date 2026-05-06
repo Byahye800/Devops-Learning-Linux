@@ -14,9 +14,9 @@ Features
 
 
 
-\- Prompts the user for two numbers  
+\- Prompts the user for two numbers
 
-\- Performs: - Addition - Subtraction - Multiplication - Division 
+\- Performs: - Addition - Subtraction - Multiplication - Division
   (with safe handling for division by zero)
 
 \- Displays all results in a clean, readable format
@@ -37,7 +37,6 @@ How It Works
 
 2\. It asks the user to enter two numbers using read -p.
 
-3\. Arithmetic is performed using Bash’s built‑in arithmetic expansion:  
+3\. Arithmetic is performed using Bash’s built‑in arithmetic expansion:
 
 &nbsp;  $(( expression ))
-

@@ -33,8 +33,3 @@ sort data.txt | uniq -u
 Explanation
 
 After logging into Bandit Level 8, I listed the files in the home directory and found a file named "data.txt". The password for the next level was stored on the only line that appears exactly once in this file. I used sort data.txt | uniq -u to first sort the lines and then filter out all lines that appear more than once. The remaining single line was the password for the next level.
-
-
-
-
-

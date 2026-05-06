@@ -31,8 +31,3 @@ cat /var/lib/dpkg/info/bandit7.password
 Explanation
 
 After logging into Bandit Level 6, I needed to find a file somewhere on the system that was owned by user bandit7 and group bandit6. I used the find command with ownership filters and redirected error messages using 2>/dev/null to avoid permission-denied spam. The command returned the path to the correct file. I then used cat on that file to retrieve the password for the next level.
-
-
-
-
-
