@@ -1,0 +1,4 @@
+## main...origin/main
+A  Evidence/Git/git-basics/terminal-outputs/01-git-status-clean.txt
+?? Evidence/Git/git-basics/screenshots/
+?? Evidence/Git/git-basics/terminal-outputs/02-git-add-staged.txt

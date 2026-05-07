@@ -362,3 +362,56 @@ edit files → inspect changes → stage changes → review changes → commit �
 ```
 
 I also understand that Git is not simply a backup tool, but a professional change management system used to protect project history, engineering collaboration, and deployment reliability.
+
+---
+
+# Practical Evidence
+
+This section documents hands-on evidence captured while practising Git basics. Each scenario includes both terminal output evidence and screenshot evidence to demonstrate command execution, Git state awareness, and professional workflow understanding.
+
+## Evidence Summary
+
+| Scenario | Skill Demonstrated | Terminal Evidence | Screenshot Evidence |
+|---|---|---|---|
+| 01 | Checked clean repository state with `git status -sb` | `Evidence/Git/git-basics/terminal-outputs/01-git-status-clean.txt` | `Evidence/Git/git-basics/screenshots/01-untracked-evidence-files.png` |
+| 02 | Staged a file using `git add` | `Evidence/Git/git-basics/terminal-outputs/02-git-add-staged.txt` | `Evidence/Git/git-basics/screenshots/02-git-add-staged.png` |
+| 03 | Created a commit from staged changes | `Evidence/Git/git-basics/terminal-outputs/03-git-commit-created.txt` | `Evidence/Git/git-basics/screenshots/03-git-commit-created.png` |
+| 04 | Inspected commit history using `git log --oneline --graph --all` | `Evidence/Git/git-basics/terminal-outputs/04-git-log-history.txt` | `Evidence/Git/git-basics/screenshots/04-git-log-history.png` |
+| 05 | Inspected unstaged changes using `git diff` | `Evidence/Git/git-basics/terminal-outputs/05-git-diff-unstaged.txt` | `Evidence/Git/git-basics/screenshots/05-git-diff-unstaged.png` |
+| 06 | Inspected staged changes using `git diff --staged` | `Evidence/Git/git-basics/terminal-outputs/06-git-diff-staged.txt` | `Evidence/Git/git-basics/screenshots/06-git-diff-staged.png` |
+| 07 | Verified remote repository configuration using `git remote -v` | `Evidence/Git/git-basics/terminal-outputs/07-git-remote.txt` | `Evidence/Git/git-basics/screenshots/07-git-remote.png` |
+| 08 | Verified SSH authentication to GitHub | `Evidence/Git/git-basics/terminal-outputs/08-ssh-authentication.txt` | `Evidence/Git/git-basics/screenshots/08-ssh-authentication.png` |
+| 09 | Inspected Git configuration sources using `git config --list --show-origin` | `Evidence/Git/git-basics/terminal-outputs/09-git-config.txt` | `Evidence/Git/git-basics/screenshots/09-git-config.png` |
+
+## Evidence Learning Notes
+
+### Repository State Awareness
+
+The evidence demonstrates the ability to read Git status output and understand the difference between untracked files, staged files, unstaged modifications, and committed changes.
+
+### Staging and Commit Workflow
+
+The `git add` and `git commit` evidence shows the core Git lifecycle:
+
+```text
+working directory → staging area → commit history
+
+```
+
+This proves understanding of how changes move through Git before becoming part of permanent project history.
+
+### Difference Inspection
+
+The `git diff` and `git diff --staged` scenarios demonstrate the difference between inspecting unstaged working-tree changes and staged index changes before committing.
+
+### Remote and Authentication Verification
+
+The `git remote` and SSH authentication evidence confirms the repository is connected to GitHub using SSH-based authentication, which is a common professional Git workflow.
+
+### Configuration Awareness
+
+The Git configuration evidence shows awareness of both global configuration and repository-local configuration, including user identity, editor preference, and remote repository URL.
+
+## Evidence Outcome
+
+This evidence confirms practical ability to execute and explain foundational Git workflows, inspect repository state, manage staged and unstaged changes, verify remote connectivity, and document technical work in a professional portfolio structure.

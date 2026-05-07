@@ -1,0 +1,4 @@
+file:/home/byahy/.gitconfig	user.name=booka11
+file:/home/byahy/.gitconfig	user.email=boookayahye@gmail.com
+file:/home/byahy/.gitconfig	core.editor=vim
+file:.git/config	remote.origin.url=git@github-byahye800:Byahye800/Devops-Learning-Linux.git

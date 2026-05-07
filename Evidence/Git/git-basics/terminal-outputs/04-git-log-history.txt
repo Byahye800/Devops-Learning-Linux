@@ -1,0 +1,86 @@
+* 1bfab5f Add Git basics status evidence
+* df862a7 Refactor Git evidence folder architecture
+* 9c31a99 Add GitHub workflow and collaboration documentation
+* 47dee00 Add Git hooks and repository security documentation
+* 199900d Add Git error recovery documentation
+* 403f025 Add Git stash and rebase documentation
+* 32c296e Add Git merge conflict documentation
+* e5d814b Add Git branching documentation
+* 0dd44b3 Add Git fundamentals documentation
+* 0eb7c9b Create professional repository structure
+* e1766ad Standardize README filenames
+* 7153977 Add gitignore and pre-commit automation
+* 2a37f63 Update readme.md
+* e19a20d Update readme.md
+* 5f9d06d Update readme.md
+* 43bb3e6 Update readme.md
+* 11f02e7 Update readme.md
+* ecdb2da Update readme.md
+* 8a71d40 edit
+* 6320d0f edit
+* 9765680 Update readme.md
+* f5012c1 edit
+* 3c45440 edits
+* 347e6a8 update
+* 76a002a Create readme.md
+* 0cd20ce edit
+* 8f1dc58 edit
+*   e005e0f Merge branch 'main' of https://github.com/Byahye800/Devops-Learning-Linux
+|\
+| * 8e517ea Edit
+* | c1d70b5 edit
+|/
+* f0011ab Edit
+* 510e6ff Edit
+* 6f184b3 Edit
+* c0a8206 Edit
+* f0e223f Edits
+* f1b68c8 Edit
+* 076f5de Edit
+* 0b535fd Edit
+* 88bcabb edit
+* 13ad2aa edit
+* 09c8663 Edit
+* aa6986d EDITs
+* c2f970f Edit
+* ee40250 EDIT
+* 6336bdc Edits
+* 67601b6 Delete readme.md
+* 73acdcf Edits
+* a444764 Edits
+* 89733bd Edits
+* 0db7968 Edit
+* b6f549a Edits
+* 981b5f3 edits
+* 5e079ae more edits
+* 457c9a5 more edits
+* 501094e edits
+* cd819a2 edits
+* d4cd832 folder edits
+* 8be9121 updated basic commands notes
+* 2d06e51 added folder structure
+* 65c4830 Initial commit
+* 755ce9b Add pre-commit hooks and repo hygiene checks
+* ac5b960 updated gitigonore
+* b98112a feat: add note file and meta
+* b381aa8 hotfix: add prod config fix
+| * a15614d hotfix: add prod config fix
+|/
+* 781112e push feature changes
+* 63710ea apply hotfix on main
+| * 5dd8a35 feat: add all 3 lines to change.txt
+|/
+* ee90b70 Revert "accidental prod commit"
+* a48ca32 accidental prod commit
+* 4e41634 move to main
+* 550993c Test commit
+*   79976cc Merge pull request #1 from booka11/feature/add-about-page
+|\
+| * 941e649 Add about page
+|/
+* aae8f77 resolve merge confilct between main and feature-1 branch
+* 265635e  update feauture-1
+* 64793e8  conflicting update from main
+* 51e8dbc initial commit on main
+* 72f161a add gitignore
+* 3e70ee0 init commit

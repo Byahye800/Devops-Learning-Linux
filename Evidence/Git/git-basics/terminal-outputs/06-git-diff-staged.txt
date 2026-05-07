@@ -1,0 +1,9 @@
+diff --git a/Git/git-basics.md b/Git/git-basics.md
+index 4f33e09..8cb92f5 100644
+--- a/Git/git-basics.md
++++ b/Git/git-basics.md
+@@ -362,3 +362,4 @@ edit files → inspect changes → stage changes → review changes → commit
+ ```
+
+ I also understand that Git is not simply a backup tool, but a professional change management system used to protect project history, engineering collaboration, and deployment reliability.
++<!-- git diff test -->

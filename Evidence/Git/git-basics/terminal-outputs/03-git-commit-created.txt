@@ -1,0 +1,5 @@
+## main...origin/main [ahead 1]
+?? Evidence/Git/git-basics/screenshots/
+?? Evidence/Git/git-basics/terminal-outputs/02-git-add-staged.txt
+?? Evidence/Git/git-basics/terminal-outputs/03-git-commit-created.txt
+1bfab5f Add Git basics status evidence
