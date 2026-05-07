@@ -373,15 +373,15 @@ This section documents hands-on evidence captured while practising Git basics. E
 
 | Scenario | Skill Demonstrated | Terminal Evidence | Screenshot Evidence |
 |---|---|---|---|
-| 01 | Checked clean repository state with `git status -sb` | `Evidence/Git/git-basics/terminal-outputs/01-git-status-clean.txt` | `Evidence/Git/git-basics/screenshots/01-untracked-evidence-files.png` |
-| 02 | Staged a file using `git add` | `Evidence/Git/git-basics/terminal-outputs/02-git-add-staged.txt` | `Evidence/Git/git-basics/screenshots/02-git-add-staged.png` |
-| 03 | Created a commit from staged changes | `Evidence/Git/git-basics/terminal-outputs/03-git-commit-created.txt` | `Evidence/Git/git-basics/screenshots/03-git-commit-created.png` |
-| 04 | Inspected commit history using `git log --oneline --graph --all` | `Evidence/Git/git-basics/terminal-outputs/04-git-log-history.txt` | `Evidence/Git/git-basics/screenshots/04-git-log-history.png` |
-| 05 | Inspected unstaged changes using `git diff` | `Evidence/Git/git-basics/terminal-outputs/05-git-diff-unstaged.txt` | `Evidence/Git/git-basics/screenshots/05-git-diff-unstaged.png` |
-| 06 | Inspected staged changes using `git diff --staged` | `Evidence/Git/git-basics/terminal-outputs/06-git-diff-staged.txt` | `Evidence/Git/git-basics/screenshots/06-git-diff-staged.png` |
-| 07 | Verified remote repository configuration using `git remote -v` | `Evidence/Git/git-basics/terminal-outputs/07-git-remote.txt` | `Evidence/Git/git-basics/screenshots/07-git-remote.png` |
-| 08 | Verified SSH authentication to GitHub | `Evidence/Git/git-basics/terminal-outputs/08-ssh-authentication.txt` | `Evidence/Git/git-basics/screenshots/08-ssh-authentication.png` |
-| 09 | Inspected Git configuration sources using `git config --list --show-origin` | `Evidence/Git/git-basics/terminal-outputs/09-git-config.txt` | `Evidence/Git/git-basics/screenshots/09-git-config.png` |
+| 01 | Checked clean repository state with `git status -sb` | `Git/git-basics-evidence/terminal-outputs/01-git-status-clean.txt` | `Git/git-basics-evidence/screenshots/01-untracked-evidence-files.png` |
+| 02 | Staged a file using `git add` | `Git/git-basics-evidence/terminal-outputs/02-git-add-staged.txt` | `Git/git-basics-evidence/screenshots/02-git-add-staged.png` |
+| 03 | Created a commit from staged changes | `Git/git-basics-evidence/terminal-outputs/03-git-commit-created.txt` | `Git/git-basics-evidence/screenshots/03-git-commit-created.png` |
+| 04 | Inspected commit history using `git log --oneline --graph --all` | `Git/git-basics-evidence/terminal-outputs/04-git-log-history.txt` | `Git/git-basics-evidence/screenshots/04-git-log-history.png` |
+| 05 | Inspected unstaged changes using `git diff` | `Git/git-basics-evidence/terminal-outputs/05-git-diff-unstaged.txt` | `Git/git-basics-evidence/screenshots/05-git-diff-unstaged.png` |
+| 06 | Inspected staged changes using `git diff --staged` | `Git/git-basics-evidence/terminal-outputs/06-git-diff-staged.txt` | `Git/git-basics-evidence/screenshots/06-git-diff-staged.png` |
+| 07 | Verified remote repository configuration using `git remote -v` | `Git/git-basics-evidence/terminal-outputs/07-git-remote.txt` | `Git/git-basics-evidence/screenshots/07-git-remote.png` |
+| 08 | Verified SSH authentication to GitHub | `Git/git-basics-evidence/terminal-outputs/08-ssh-authentication.txt` | `Git/git-basics-evidence/screenshots/08-ssh-authentication.png` |
+| 09 | Inspected Git configuration sources using `git config --list --show-origin` | `Git/git-basics-evidence/terminal-outputs/09-git-config.txt` | `Git/git-basics-evidence/screenshots/09-git-config.png` |
 
 ## Evidence Learning Notes
 
