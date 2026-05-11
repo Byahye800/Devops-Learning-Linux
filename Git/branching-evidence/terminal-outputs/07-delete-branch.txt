@@ -1,0 +1,22 @@
+## main...origin/main
+?? Git/branching-evidence/screenshots/07-delete-branch.png
+?? Git/branching-evidence/terminal-outputs/07-delete-branch.txt
+
+  backup-git-lab-work
+  evidence-branching-practice
+  evidence/create-and-switch-demo
+  evidence/create-branch-demo
+  feature-cherry
+  feature-login
+  feature/history-demo
+* main
+
+Deleted branch evidence/create-branch-demo (was 8107ffb).
+
+  backup-git-lab-work
+  evidence-branching-practice
+  evidence/create-and-switch-demo
+  feature-cherry
+  feature-login
+  feature/history-demo
+* main
