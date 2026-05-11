@@ -1,0 +1,13 @@
+* 970b277 (evidence-branching-practice) Add branch isolation demo file
+* f29148e (HEAD -> evidence/create-and-switch-demo, origin/main, main, feature-login, evidence/create-branch-demo) Ignore private project control files
+| * b41aa34 (feature/history-demo) Add history demo file
+|/
+* 470b3b3 Update Git basics evidence paths
+* 706761a Move Git basics evidence into Git module
+* 3b05e69 Add Git basics evidence documentation
+* 1bfab5f Add Git basics status evidence
+* df862a7 Refactor Git evidence folder architecture
+* 9c31a99 Add GitHub workflow and collaboration documentation
+* 47dee00 Add Git hooks and repository security documentation
+* 199900d Add Git error recovery documentation
+* 403f025 Add Git stash and rebase documentation

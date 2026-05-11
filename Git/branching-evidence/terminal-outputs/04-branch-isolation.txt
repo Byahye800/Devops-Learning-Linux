@@ -1,0 +1,4 @@
+## evidence/create-and-switch-demo
+?? Git/branching-evidence/screenshots/
+?? Git/branching-evidence/terminal-outputs/
+?? branch-isolation-demo.txt

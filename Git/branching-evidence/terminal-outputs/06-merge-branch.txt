@@ -1,0 +1,14 @@
+Updating f29148e..d62a2cd
+Fast-forward
+ merge-demo-clean.txt | 1 +
+ 1 file changed, 1 insertion(+)
+ create mode 100644 merge-demo-clean.txt
+
+* d62a2cd (HEAD -> main, evidence/merge-demo-clean) Add clean merge demo file
+* f29148e (origin/main, feature-login, evidence/create-branch-demo, evidence/create-and-switch-demo) Ignore private project control files
+* 470b3b3 Update Git basics evidence paths
+* 706761a Move Git basics evidence into Git module
+* 3b05e69 Add Git basics evidence documentation
+* 1bfab5f Add Git basics status evidence
+
+Merge demo file

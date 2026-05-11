@@ -1,0 +1,9 @@
+main
+  backup-git-lab-work
+  evidence-branching-practice
+  evidence/create-and-switch-demo
+  evidence/create-branch-demo
+  feature-cherry
+  feature-login
+  feature/history-demo
+* main
