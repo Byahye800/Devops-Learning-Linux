@@ -1,1 +1,1 @@
-Production database configuration
+Development database configuration
