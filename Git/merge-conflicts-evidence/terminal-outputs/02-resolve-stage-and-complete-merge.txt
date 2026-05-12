@@ -1,0 +1,40 @@
+Main branch production hotfix
+Development database configuration
+## main...origin/main [ahead 3]
+M  merge-conflict-demo.txt
+?? Git/merge-conflicts-evidence/screenshots/
+?? Git/merge-conflicts-evidence/terminal-outputs/
+[?1049h[22;0;0t[>4;2m[?1h=[?2004h[?1004h[1;62r[?12h[?12l[22;2t[22;1t[27m[23m[29m[m[H[2J[?25l[62;1H"~/git-lab/.git/COMMIT_EDITMSG" 27L, 699B[1;1H[38;5;130m  1 Merge branch 'feature-update'
+  2
+  3 [m[34m# [m[35mConflicts:[m
+[38;5;130m  4 [m[34m#       [m[31mmerge-conflict-demo.txt[m
+[38;5;130m  5 [m[34m#[m
+[38;5;130m  6 [m[34m# It looks like you may be committing a merge.[m
+[38;5;130m  7 [m[34m# If this is not correct, please run[m
+[38;5;130m  8 [m[34m#       [m[31mgit update-ref -d MERGE_HEAD[m
+[38;5;130m  9 [m[34m# and try again.[m
+[38;5;130m 10
+ 11
+ 12 [m[34m# Please enter the commit message for your changes. Lines starting[m
+[38;5;130m 13 [m[34m# with '#' will be ignored, and an empty message aborts the commit.[m
+[38;5;130m 14 [m[34m#[m
+[38;5;130m 15 [m[34m# On branch [m[35mmain[m
+[38;5;130m 16 [m[34m# Your branch is ahead of '[m[35morigin/main[m[34m' by 3 commits.[m
+[38;5;130m 17 [m[34m#   (use "git push" to publish your local commits)[m
+[38;5;130m 18 [m[34m#[m
+[38;5;130m 19 [m[34m# All conflicts fixed but you are still merging.[m
+[38;5;130m 20 [m[34m#[m
+[38;5;130m 21 [m[34m# [m[35mChanges to be committed:[m
+[38;5;130m 22 [m[34m#       [m[32mmodified[m[34m:   [m[31mmerge-conflict-demo.txt[m
+[38;5;130m 23 [m[34m#[m
+[38;5;130m 24 [m[34m# [m[35mUntracked files:[m
+[38;5;130m 25 [m[34m#       [m[31mGit/merge-conflicts-evidence/screenshots/[m
+[38;5;130m 26 [m[34m#       [m[31mGit/merge-conflicts-evidence/terminal-outputs/[m
+[38;5;130m 27 [m[34m#[m
+[94m~                                                                                                                 [29;1H~                                                                                                                 [30;1H~                                                                                                                 [31;1H~                                                                                                                 [32;1H~                                                                                                                 [33;1H~                                                                                                                 [34;1H~                                                                                                                 [35;1H~                                                                                                                 [36;1H~                                                                                                                 [37;1H~                                                                                                                 [38;1H~                                                                                                                 [39;1H~                                                                                                                 [40;1H~                                                                                                                 [41;1H~                                                                                                                 [42;1H~                                                                                                                 [43;1H~                                                                                                                 [44;1H~                                                                                                                 [45;1H~                                                                                                                 [46;1H~                                                                                                                 [47;1H~                                                                                                                 [48;1H~                                                                                                                 [49;1H~                                                                                                                 [50;1H~                                                                                                                 [51;1H~                                                                                                                 [52;1H~                                                                                                                 [53;1H~                                                                                                                 [54;1H~                                                                                                                 [55;1H~                                                                                                                 [56;1H~                                                                                                                 [57;1H~                                                                                                                 [58;1H~                                                                                                                 [59;1H~                                                                                                                 [60;1H~                                                                                                                 [61;1H~                                                                                                                 [m[62;97H1,1[11CAll[1;5H[?25h[?4m[?25l[62;1H[K[62;1H:[?25hwq
+[?25l[?2004l[>4;m".git/COMMIT_EDITMSG" 27L, 699B written
+[23;2t[23;1t
+[?1004l[?2004l[?1l>[?1049l[23;0;0t[?25h[>4;m[main f7b134c] Merge branch 'feature-update'
+## main...origin/main [ahead 5]
+?? Git/merge-conflicts-evidence/screenshots/
+?? Git/merge-conflicts-evidence/terminal-outputs/

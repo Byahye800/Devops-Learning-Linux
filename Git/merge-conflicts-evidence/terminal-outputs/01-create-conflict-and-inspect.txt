@@ -1,0 +1,38 @@
+## main...origin/main [ahead 1]
+[main 08f34f1] Add production database configuration
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+[feature-update a486800] Update database configuration on feature branch
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+## feature-update
+?? Git/merge-conflicts-evidence/screenshots/
+?? Git/merge-conflicts-evidence/terminal-outputs/
+Your branch is ahead of 'origin/main' by 2 commits.
+  (use "git push" to publish your local commits)
+[main 47e8c2a] Apply production hotfix on main branch
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+Auto-merging merge-conflict-demo.txt
+CONFLICT (content): Merge conflict in merge-conflict-demo.txt
+Automatic merge failed; fix conflicts and then commit the result.
+On branch main
+Your branch is ahead of 'origin/main' by 3 commits.
+  (use "git push" to publish your local commits)
+
+You have unmerged paths.
+  (fix conflicts and run "git commit")
+  (use "git merge --abort" to abort the merge)
+
+Unmerged paths:
+  (use "git add <file>..." to mark resolution)
+	both modified:   merge-conflict-demo.txt
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	Git/merge-conflicts-evidence/screenshots/
+	Git/merge-conflicts-evidence/terminal-outputs/
+
+no changes added to commit (use "git add" and/or "git commit -a")
+<<<<<<< HEAD
+Main branch production hotfix
+=======
+Development database configuration
+>>>>>>> feature-update
