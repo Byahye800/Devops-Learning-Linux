@@ -1,0 +1,27 @@
+## main...origin/main
+?? Git/stash-rebase-evidence/terminal-outputs/
+[main e2b2166] Add stash demo baseline
+ 1 file changed, 1 insertion(+)
+ create mode 100644 stash-demo.txt
+Saved working directory and index state On main: unfinished navbar changes
+## main...origin/main [ahead 1]
+?? Git/stash-rebase-evidence/terminal-outputs/
+stash@{0}: On main: unfinished navbar changes
+On branch main
+Your branch is ahead of 'origin/main' by 1 commit.
+  (use "git push" to publish your local commits)
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+	modified:   stash-demo.txt
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	Git/stash-rebase-evidence/terminal-outputs/
+
+no changes added to commit (use "git add" and/or "git commit -a")
+Dropped refs/stash@{0} (a1533ce46b9f72304f150693e436454e2780c0c9)
+Navbar baseline
+
+Mobile menu styling still in progress
