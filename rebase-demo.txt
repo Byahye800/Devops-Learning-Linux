@@ -1,1 +1,3 @@
 Login form baseline
+
+Login validation styling in progress

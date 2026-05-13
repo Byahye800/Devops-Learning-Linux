@@ -1,0 +1,30 @@
+## main...origin/main [ahead 1]
+## main...origin/main [ahead 1]
+ M rebase-demo.txt
+?? Git/stash-rebase-evidence/terminal-outputs/02-stash-apply-and-drop.txt
+Saved working directory and index state On main: unfinished login validation styling
+## main...origin/main [ahead 1]
+?? Git/stash-rebase-evidence/terminal-outputs/02-stash-apply-and-drop.txt
+stash@{0}: On main: unfinished login validation styling
+On branch main
+Your branch is ahead of 'origin/main' by 1 commit.
+  (use "git push" to publish your local commits)
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+	modified:   rebase-demo.txt
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	Git/stash-rebase-evidence/terminal-outputs/02-stash-apply-and-drop.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+stash@{0}: On main: unfinished login validation styling
+Login form baseline
+
+Login validation styling in progress
+Dropped stash@{0} (482ade0c33be65dd041bfe57baa2bb8d9681a647)
+## main...origin/main [ahead 1]
+ M rebase-demo.txt
+?? Git/stash-rebase-evidence/terminal-outputs/02-stash-apply-and-drop.txt
