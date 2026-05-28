@@ -1,16 +1,18 @@
-## main...origin/main
-?? Git/stash-rebase-evidence/terminal-outputs/03-rebase-workflow.txt
-* 97488c0 (HEAD -> main, origin/main) Add Git rebase workflow evidence screenshots
-| * 7a8db07 (feature-login) Add Git rebase workflow evidence
+[03a evidence: pre-rebase divergent history]
+
+[relevant branches before rebase]
+* feature-login
+  main
+
+[pre-rebase divergent history]
+* 5b9a496 (origin/main, main) Add Git rebase terminal output evidence
+* 97488c0 Add Git rebase workflow evidence screenshots
+| * 7a8db07 (HEAD -> feature-login) Add Git rebase workflow evidence
 | * 9e3e3f7 Add login validation feature
 |/
 * c326ff5 Update main login baseline
 * ce151c0 Add Git stash apply and drop evidence
 * 89b69a6 Add rebase demo baseline
 * 10b19f1 Normalize PNG evidence file permissions
-* cae2d9c Add Git stash create and restore evidence
-* e2b2166 Add stash demo baseline
-* 5662988 Remove merge conflict demo artifact
-* b63349e Add merge conflict evidence workflow
-*   f7b134c Merge branch 'feature-update'
-|\
+
+[03a evidence: feature-login has diverged from main before rebase]
