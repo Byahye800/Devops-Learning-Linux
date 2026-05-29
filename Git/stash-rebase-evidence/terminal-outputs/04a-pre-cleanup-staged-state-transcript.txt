@@ -1,0 +1,22 @@
+# Scenario 04a - Screenshot-backed terminal transcript
+
+$ git status -sb
+## main...origin/main
+
+$ echo "[SCENARIO 04A - BEGIN]"
+[SCENARIO 04A - BEGIN]
+
+$ echo "Login validation module" > rebase-cleanup-demo.txt
+
+$ cat rebase-cleanup-demo.txt
+Login validation module
+
+$ git status -sb
+## main...origin/main
+?? rebase-cleanup-demo.txt
+
+$ git add rebase-cleanup-demo.txt
+
+$ git status -sb
+## main...origin/main
+A  rebase-cleanup-demo.txt
