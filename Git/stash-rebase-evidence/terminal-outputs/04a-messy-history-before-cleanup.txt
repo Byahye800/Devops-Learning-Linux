@@ -1,0 +1,34 @@
+[SCENARIO 04A - MESSY HISTORY BEFORE CLEANUP]
+
+Branch:
+evidence/interactive-rebase-cleanup
+
+Purpose:
+Create three small related commits to demonstrate messy local history before using interactive rebase cleanup.
+
+Commands performed:
+git status -sb
+echo "Login validation module" > scenario-04-cleanup-demo.txt
+git add scenario-04-cleanup-demo.txt
+git commit -m "Add login workflow"
+echo "Add basic username validation" >> scenario-04-cleanup-demo.txt
+git add scenario-04-cleanup-demo.txt
+git commit -m "Fix username validation"
+echo "Improve password validation" >> scenario-04-cleanup-demo.txt
+git add scenario-04-cleanup-demo.txt
+git commit -m "Update password validation"
+git --no-pager log --oneline -3
+
+Result:
+Three related commits were created successfully.
+
+Verified history:
+b62fadd Update password validation
+b4a2bd3 Fix username validation
+c877cd0 Add login workflow
+
+Evidence screenshot:
+Git/stash-rebase-evidence/screenshots/04a-messy-history-before-cleanup.png
+
+Markdown alignment:
+This supports the Git/stash-rebase.md interactive rebase section by creating the three commits needed for git rebase -i HEAD~3, squash, and professional commit history cleanup.

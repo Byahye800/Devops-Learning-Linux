@@ -1,0 +1,33 @@
+[SCENARIO 04B - CLEAN HISTORY AFTER REBASE AND AMEND]
+
+Branch:
+evidence/interactive-rebase-cleanup
+
+Purpose:
+Use interactive rebase to squash three messy related commits into one clean commit, then amend the commit message for professional history quality.
+
+Commands performed:
+git status -sb
+git --no-pager log --oneline -3
+git rebase -i HEAD~3
+git --no-pager log --oneline -3
+git commit --amend -m "Add validated login workflow"
+git --no-pager log --oneline -2
+
+Result:
+Interactive rebase successfully squashed three related commits into one cleaner commit.
+The final commit message was amended to improve professional commit history quality.
+
+Before cleanup:
+b62fadd Update password validation
+b4a2bd3 Fix username validation
+c877cd0 Add login workflow
+
+After cleanup and amend:
+22d90d8 Add validated login workflow
+
+Evidence screenshot:
+Git/stash-rebase-evidence/screenshots/04b-clean-history-after-rebase-amend.png
+
+Markdown alignment:
+This directly supports the Git/stash-rebase.md sections covering git rebase -i HEAD~3, squash, git commit --amend, and professional commit history practices.
