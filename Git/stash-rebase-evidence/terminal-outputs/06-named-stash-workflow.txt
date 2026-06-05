@@ -1,0 +1,57 @@
+]2;byahy@yahye:~/projects/CoderCo-Portfolio/Devops-Learning-Linux]1;..earning-Linux]7;file://yahye/home/byahy/projects/CoderCo-Portfolio/Devops-Learning-Linux\[?1h=[?25l[?25h[?1l>]2;git status -sb]1;git## evidence/named-stash-workflow
+?? Git/stash-rebase-evidence/terminal-outputs/06-named-stash-workflow.txt
+]2;byahy@yahye:~/projects/CoderCo-Portfolio/Devops-Learning-Linux]1;..earning-Linux]7;file://yahye/home/byahy/projects/CoderCo-Portfolio/Devops-Learning-Linux\[?1h=[?1l>]2;echo "Pending authentication validation" > named-stash-demo.txt]1;echo]2;byahy@yahye:~/projects/CoderCo-Portfolio/Devops-Learning-Linux]1;..earning-Linux]7;file://yahye/home/byahy/projects/CoderCo-Portfolio/Devops-Learning-Linux\[?1h=[?1l>]2;git status -sb]1;git## evidence/named-stash-workflow
+?? Git/stash-rebase-evidence/terminal-outputs/06-named-stash-workflow.txt
+?? named-stash-demo.txt
+]2;byahy@yahye:~/projects/CoderCo-Portfolio/Devops-Learning-Linux]1;..earning-Linux]7;file://yahye/home/byahy/projects/CoderCo-Portfolio/Devops-Learning-Linux\[?1h=[?1l>]2;git stash push -m "unfinished authentication validation"]1;gitNo local changes to save
+]2;byahy@yahye:~/projects/CoderCo-Portfolio/Devops-Learning-Linux]1;..earning-Linux]7;file://yahye/home/byahy/projects/CoderCo-Portfolio/Devops-Learning-Linux\[?1h=[?1l>]2;git add named-stash-demo.txt]1;git]2;byahy@yahye:~/projects/CoderCo-Portfolio/Devops-Learning-Linux]1;..earning-Linux]7;file://yahye/home/byahy/projects/CoderCo-Portfolio/Devops-Learning-Linux\[?1h=[?1l>]2;git status -sb]1;git## evidence/named-stash-workflow
+A  named-stash-demo.txt
+?? Git/stash-rebase-evidence/terminal-outputs/06-named-stash-workflow.txt
+]2;byahy@yahye:~/projects/CoderCo-Portfolio/Devops-Learning-Linux]1;..earning-Linux]7;file://yahye/home/byahy/projects/CoderCo-Portfolio/Devops-Learning-Linux\[?1h=[?1l>]2;git stash push -m "unfinished authentication validation"]1;gitSaved working directory and index state On evidence/named-stash-workflow: unfinished authentication validation
+]2;byahy@yahye:~/projects/CoderCo-Portfolio/Devops-Learning-Linux]1;..earning-Linux]7;file://yahye/home/byahy/projects/CoderCo-Portfolio/Devops-Learning-Linux\[?1h=[?1l>]2;git stash list]1;gitstash@{0}: On evidence/named-stash-workflow: unfinished authentication validation
+]2;byahy@yahye:~/projects/CoderCo-Portfolio/Devops-Learning-Linux]1;..earning-Linux]7;file://yahye/home/byahy/projects/CoderCo-Portfolio/Devops-Learning-Linux\[?1h=[?1l>]2;git status -sb]1;git## evidence/named-stash-workflow
+?? Git/stash-rebase-evidence/terminal-outputs/06-named-stash-workflow.txt
+]2;byahy@yahye:~/projects/CoderCo-Portfolio/Devops-Learning-Linux]1;..earning-Linux]7;file://yahye/home/byahy/projects/CoderCo-Portfolio/Devops-Learning-Linux\[?1h=[?1l>]2;mv /mnt/c/Users/byahy/OneDrive/Pictures/Screenshots/  < actual-file > .png]1;mvzsh: no such file or directory: actual-file
+]2;byahy@yahye:~/projects/CoderCo-Portfolio/Devops-Learning-Linux]1;..earning-Linux]7;file://yahye/home/byahy/projects/CoderCo-Portfolio/Devops-Learning-Linux\[?1h=[?1l>]2;ls --color=tty -l ]1;lsls: cannot access 'Git/stash-rebase-evidence/screenshots/06a-named-stash-created-and-verified.png': No such file or directory
+]2;byahy@yahye:~/projects/CoderCo-Portfolio/Devops-Learning-Linux]1;..earning-Linux]7;file://yahye/home/byahy/projects/CoderCo-Portfolio/Devops-Learning-Linux\[?1h=[?1l>]2;find /mnt/c/Users/byahy/OneDrive/Pictures/Screenshots -type f -iname "*.png" ]1;find]2;byahy@yahye:~/projects/CoderCo-Portfolio/Devops-Learning-Linux]1;..earning-Linux]7;file://yahye/home/byahy/projects/CoderCo-Portfolio/Devops-Learning-Linux\[?1h=[?1l>]2;find /mnt/c/Users/byahy/OneDrive/Pictures -type f -iname "06a*"]1;find/mnt/c/Users/byahy/OneDrive/Pictures/06a-named-stash-created-and-verified.png
+]2;byahy@yahye:~/projects/CoderCo-Portfolio/Devops-Learning-Linux]1;..earning-Linux]7;file://yahye/home/byahy/projects/CoderCo-Portfolio/Devops-Learning-Linux\[?1h=[?1l>]2;mv  ]1;mv]2;byahy@yahye:~/projects/CoderCo-Portfolio/Devops-Learning-Linux]1;..earning-Linux]7;file://yahye/home/byahy/projects/CoderCo-Portfolio/Devops-Learning-Linux\[?1h=[?1l>]2;ls --color=tty -l ]1;ls-rwxrwxrwx 1 byahy byahy 143073 Jun  5 15:41 Git/stash-rebase-evidence/screenshots/06a-named-stash-created-and-verified.png
+]2;byahy@yahye:~/projects/CoderCo-Portfolio/Devops-Learning-Linux]1;..earning-Linux]7;file://yahye/home/byahy/projects/CoderCo-Portfolio/Devops-Learning-Linux\[?1h=[?25l[?25h[?1l>]2;git stash list]1;gitstash@{0}: On evidence/named-stash-workflow: unfinished authentication validation
+]2;byahy@yahye:~/projects/CoderCo-Portfolio/Devops-Learning-Linux]1;..earning-Linux]7;file://yahye/home/byahy/projects/CoderCo-Portfolio/Devops-Learning-Linux\[?1h=[?1l>]2;git stash pop]1;gitOn branch evidence/named-stash-workflow
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+	new file:   named-stash-demo.txt
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	Git/stash-rebase-evidence/screenshots/06a-named-stash-created-and-verified.png
+	Git/stash-rebase-evidence/terminal-outputs/06-named-stash-workflow.txt
+
+Dropped refs/stash@{0} (5b401861af3fa7e0908c9d8ff06f3b8697eb30b5)
+]2;byahy@yahye:~/projects/CoderCo-Portfolio/Devops-Learning-Linux]1;..earning-Linux]7;file://yahye/home/byahy/projects/CoderCo-Portfolio/Devops-Learning-Linux\[?1h=[?1l>]2;git status -sb]1;git## evidence/named-stash-workflow
+A  named-stash-demo.txt
+?? Git/stash-rebase-evidence/screenshots/06a-named-stash-created-and-verified.png
+?? Git/stash-rebase-evidence/terminal-outputs/06-named-stash-workflow.txt
+]2;byahy@yahye:~/projects/CoderCo-Portfolio/Devops-Learning-Linux]1;..earning-Linux]7;file://yahye/home/byahy/projects/CoderCo-Portfolio/Devops-Learning-Linux\[?1h=[?1l>]2;cat named-stash-demo.txt]1;catPending authentication validation
+]2;byahy@yahye:~/projects/CoderCo-Portfolio/Devops-Learning-Linux]1;..earning-Linux]7;file://yahye/home/byahy/projects/CoderCo-Portfolio/Devops-Learning-Linux\[?1h=[?1l>]2;git stash list]1;git]2;byahy@yahye:~/projects/CoderCo-Portfolio/Devops-Learning-Linux]1;..earning-Linux]7;file://yahye/home/byahy/projects/CoderCo-Portfolio/Devops-Learning-Linux\[?1h=[?1l>]2;find /mnt/c/Users/byahy/OneDrive/Pictures -type f -iname "06b*"]1;find/mnt/c/Users/byahy/OneDrive/Pictures/06b-stash-restored-and-verified.png
+]2;byahy@yahye:~/projects/CoderCo-Portfolio/Devops-Learning-Linux]1;..earning-Linux]7;file://yahye/home/byahy/projects/CoderCo-Portfolio/Devops-Learning-Linux\[?1h=[?1l>]2;mv /mnt/c/Users/byahy/OneDrive/Pictures/06b-stash-restored-and-verified.png ]1;mv]2;byahy@yahye:~/projects/CoderCo-Portfolio/Devops-Learning-Linux]1;..earning-Linux]7;file://yahye/home/byahy/projects/CoderCo-Portfolio/Devops-Learning-Linux\[?1h=[?1l>]2;ls --color=tty -l ]1;ls-rwxrwxrwx 1 byahy byahy 107271 Jun  5 16:07 Git/stash-rebase-evidence/screenshots/06b-stash-restored-and-verified.png
+]2;byahy@yahye:~/projects/CoderCo-Portfolio/Devops-Learning-Linux]1;..earning-Linux]7;file://yahye/home/byahy/projects/CoderCo-Portfolio/Devops-Learning-Linux\[?1h=[?1l>]2;chmod 644  ]1;chmod]2;byahy@yahye:~/projects/CoderCo-Portfolio/Devops-Learning-Linux]1;..earning-Linux]7;file://yahye/home/byahy/projects/CoderCo-Portfolio/Devops-Learning-Linux\[?1h=[?1l>]2;ls --color=tty -l Git/stash-rebase-evidence/screenshots/06*.png]1;ls-rw-r--r-- 1 byahy byahy 143073 Jun  5 15:41 Git/stash-rebase-evidence/screenshots/06a-named-stash-created-and-verified.png
+-rw-r--r-- 1 byahy byahy 107271 Jun  5 16:07 Git/stash-rebase-evidence/screenshots/06b-stash-restored-and-verified.png
+]2;byahy@yahye:~/projects/CoderCo-Portfolio/Devops-Learning-Linux]1;..earning-Linux]7;file://yahye/home/byahy/projects/CoderCo-Portfolio/Devops-Learning-Linux\[?1h=[?1l>]2;ls --color=tty -lh ]1;ls-rw-r--r-- 1 byahy byahy 8.0K Jun  5 16:11 Git/stash-rebase-evidence/terminal-outputs/06-named-stash-workflow.txt
+]2;byahy@yahye:~/projects/CoderCo-Portfolio/Devops-Learning-Linux]1;..earning-Linux]7;file://yahye/home/byahy/projects/CoderCo-Portfolio/Devops-Learning-Linux\[?1h=[?1l>]2;git status -sb]1;git## evidence/named-stash-workflow
+A  named-stash-demo.txt
+?? Git/stash-rebase-evidence/screenshots/06a-named-stash-created-and-verified.png
+?? Git/stash-rebase-evidence/screenshots/06b-stash-restored-and-verified.png
+?? Git/stash-rebase-evidence/terminal-outputs/06-named-stash-workflow.txt
+]2;byahy@yahye:~/projects/CoderCo-Portfolio/Devops-Learning-Linux]1;..earning-Linux]7;file://yahye/home/byahy/projects/CoderCo-Portfolio/Devops-Learning-Linux\[?1h=[?1l>]2;git restore --staged named-stash-demo.txt]1;git]2;byahy@yahye:~/projects/CoderCo-Portfolio/Devops-Learning-Linux]1;..earning-Linux]7;file://yahye/home/byahy/projects/CoderCo-Portfolio/Devops-Learning-Linux\[?1h=[?1l>]2;rm named-stash-demo.txt]1;rm]2;byahy@yahye:~/projects/CoderCo-Portfolio/Devops-Learning-Linux]1;..earning-Linux]7;file://yahye/home/byahy/projects/CoderCo-Portfolio/Devops-Learning-Linux\[?1h=[?1l>]2;git status -sb]1;git## evidence/named-stash-workflow
+?? Git/stash-rebase-evidence/screenshots/06a-named-stash-created-and-verified.png
+?? Git/stash-rebase-evidence/screenshots/06b-stash-restored-and-verified.png
+?? Git/stash-rebase-evidence/terminal-outputs/06-named-stash-workflow.txt
+]2;byahy@yahye:~/projects/CoderCo-Portfolio/Devops-Learning-Linux]1;..earning-Linux]7;file://yahye/home/byahy/projects/CoderCo-Portfolio/Devops-Learning-Linux\[?1h=[?1l>]2;git add   ]1;git]2;byahy@yahye:~/projects/CoderCo-Portfolio/Devops-Learning-Linux]1;..earning-Linux]7;file://yahye/home/byahy/projects/CoderCo-Portfolio/Devops-Learning-Linux\[?1h=[?1l>]2;git status -sb]1;git## evidence/named-stash-workflow
+A  Git/stash-rebase-evidence/screenshots/06a-named-stash-created-and-verified.png
+A  Git/stash-rebase-evidence/screenshots/06b-stash-restored-and-verified.png
+AM Git/stash-rebase-evidence/terminal-outputs/06-named-stash-workflow.txt
+]2;byahy@yahye:~/projects/CoderCo-Portfolio/Devops-Learning-Linux]1;..earning-Linux]7;file://yahye/home/byahy/projects/CoderCo-Portfolio/Devops-Learning-Linux\[?1h=[?1l>]2;git status -sb]1;git## evidence/named-stash-workflow
+A  Git/stash-rebase-evidence/screenshots/06a-named-stash-created-and-verified.png
+A  Git/stash-rebase-evidence/screenshots/06b-stash-restored-and-verified.png
+AM Git/stash-rebase-evidence/terminal-outputs/06-named-stash-workflow.txt
+]2;byahy@yahye:~/projects/CoderCo-Portfolio/Devops-Learning-Linux]1;..earning-Linux]7;file://yahye/home/byahy/projects/CoderCo-Portfolio/Devops-Learning-Linux\[?1h=[?1l>]2;exit]1;exit
