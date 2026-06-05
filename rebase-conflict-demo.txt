@@ -1,1 +1,0 @@
-Release config: resolved version preserving main and feature intent
