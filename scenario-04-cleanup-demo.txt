@@ -1,3 +1,0 @@
-Login validation module
-Add basic username validation
-Improve password validation
